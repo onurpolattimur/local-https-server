@@ -10,6 +10,8 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
+mkdir -p "certificates"
+
 domain_name="$1"
 key_file="certificates/key.pem"
 cert_file="certificates/cert.pem"
