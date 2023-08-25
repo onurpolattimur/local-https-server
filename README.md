@@ -16,7 +16,7 @@ brew install mkcert
 ```
 
 ```sh
-mkcert -install
+sudo mkcert -install
 ```
 
 ## Usage
